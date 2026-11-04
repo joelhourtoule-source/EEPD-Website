@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /contact/envoi.php
+
+Sitemap: https://www.eepd-consulting.com/sitemap.xml
