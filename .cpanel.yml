@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=$HOME/public_html/
-    - /bin/cp -R a-propos assets blog contact en expertise mentions-legales projets publications secteurs services $DEPLOYPATH
+    - /bin/cp -R a-propos assets blog contact en expertise mentions-legales projets publications recommandations secteurs services $DEPLOYPATH
     - /bin/cp index.html robots.txt sitemap.xml $DEPLOYPATH
