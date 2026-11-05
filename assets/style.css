@@ -117,3 +117,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible,.card:focus-visible{o
 .relays img{height:auto}
 ol.steps{list-style:none;counter-reset:st;padding:0;margin:0 0 20px}ol.steps li{counter-increment:st;position:relative;padding:10px 0 10px 44px;border-bottom:1px solid var(--line);min-height:44px}ol.steps li::before{content:counter(st);position:absolute;left:0;top:8px;width:30px;height:30px;border-radius:50%;background:var(--accent2);color:#1a1208;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.9rem}
 .prose h3{margin:22px 0 6px;font-size:1.1rem}
+
+.reco{margin:8px 0 26px;padding:22px 26px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px}.reco p{font-size:1.25rem;line-height:1.5;margin:0 0 12px;color:var(--text)}.reco .who{color:var(--muted);font-size:.95rem}.reco .who span{font-size:.85rem}
+.skills{margin:12px 0 26px;display:grid;gap:10px}.sk{display:grid;grid-template-columns:190px 1fr 36px;gap:12px;align-items:center}.sk span{color:var(--text)}.sk .bar{height:12px;background:var(--line);border-radius:6px;overflow:hidden}.sk .bar i{display:block;height:100%;background:var(--accent);border-radius:6px}.sk b{text-align:right;color:var(--text)}@media(max-width:560px){.sk{grid-template-columns:120px 1fr 30px}}
